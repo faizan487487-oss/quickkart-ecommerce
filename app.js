@@ -94,6 +94,21 @@ function App() {
                     setCurrentPage={setCurrentPage}
                 />
             )}
+            
+            <footer style={{
+                background: '#333',
+                color: 'white',
+                textAlign: 'center',
+                padding: '2rem',
+                marginTop: '3rem'
+            }}>
+                <p style={{fontSize: '1.2rem', marginBottom: '0.5rem'}}>
+                    Developed by <strong>Faizan</strong>
+                </p>
+                <p style={{color: '#aaa'}}>
+                    QuickKart © 2025 | E-Commerce Platform
+                </p>
+            </footer>
         </div>
     );
 }
@@ -104,7 +119,7 @@ function Navbar({ cartCount, currentPage, setCurrentPage }) {
         <nav className="navbar">
             <div className="nav-container">
                 <div className="logo" onClick={() => setCurrentPage('home')}>
-                    🛒 QuickKart by Faizaan
+                    🛒 QuickKart by Faizan
                 </div>
                 <div className="nav-links">
                     <button onClick={() => setCurrentPage('home')}>Home</button>
