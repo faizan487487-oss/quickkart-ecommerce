@@ -104,7 +104,7 @@ function Navbar({ cartCount, currentPage, setCurrentPage }) {
         <nav className="navbar">
             <div className="nav-container">
                 <div className="logo" onClick={() => setCurrentPage('home')}>
-                    🛒 QuickKart
+                    🛒 QuickKart by Faizaan
                 </div>
                 <div className="nav-links">
                     <button onClick={() => setCurrentPage('home')}>Home</button>
